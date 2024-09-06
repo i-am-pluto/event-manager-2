@@ -1,0 +1,43 @@
+# Ignore Node.js and React node_modules
+/**/node_modules/
+
+# Ignore build outputs
+/**/build/
+/**/dist/
+/**/dist/
+/**/build/
+
+/**/public/static
+/**/public/media
+/**/public/*.html
+
+# Ignore environment variable files for both projects
+/**/.env
+/**/.env.local
+/**/.env.development.local
+/**/.env.test.local
+/**/.env.production.local
+
+/**/.env
+/**/.env.local
+/**/.env.development.local
+/**/.env.test.local
+/**/.env.production.local
+
+# Ignore logs
+/**/logs
+/**/*.log
+/**/logs/*.log
+
+
+# Ignore editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Ignore OS-specific files
+Thumbs.db
+.DS_Store
